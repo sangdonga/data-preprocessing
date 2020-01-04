@@ -1,6 +1,4 @@
 import json
-from pprint import pprint
-
 from convert_data.features import extractfile, features
 
 
@@ -40,10 +38,8 @@ def main():
                 f.close()
             data = features.readfile(file)
             writedata(data_file, data)
-            break
         else:
             print('\t(e) \''+file + '\' be added!')
-
     print("============FINISH===========")
 
 
