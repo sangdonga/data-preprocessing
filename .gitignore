@@ -1,0 +1,7 @@
+.idea/*
+__pycache__/*
+convert_data/data/*
+data/*.rar
+data/*.zip
+venv/*
+convert_data/features/__pycache__/*
